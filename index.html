@@ -365,6 +365,8 @@ HTML5, CSS3, JavaScript</strong>
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   >
+  </script>
+  <script>
  const scriptURL =
         "https://script.google.com/macros/s/AKfycbxFquofCxIXwdkHq1FX60rnxlYCeaw9IMEtjhAczCrZ9h7vRYZuQM5zjhedB920EHKlOA/exec";
       const form = document.forms["submit-to-google-sheet"];
@@ -380,7 +382,8 @@ HTML5, CSS3, JavaScript</strong>
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));
-      });</script>
+      });
+  </script>    
 
 
   </body>
